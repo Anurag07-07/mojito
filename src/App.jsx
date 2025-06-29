@@ -4,6 +4,7 @@ import {ScrollTrigger} from "gsap/ScrollTrigger";
 import gsap from 'gsap'
 import Navbar from "./Components/Navbar.jsx";
 import Hero from "./Components/Hero.jsx";
+import Cocktails from "./Components/Cocktails.jsx";
 
 gsap.registerPlugin(ScrollTrigger,SplitText)
 
@@ -12,7 +13,7 @@ function App() {
         <main>
             <Navbar></Navbar>
             <Hero></Hero>
-            <div className={` h-dvh bg-black`}></div>
+            <Cocktails></Cocktails>
         </main>
     );
 }

@@ -72,7 +72,7 @@ const Hero = () => {
 
     return (
         <>
-            <section id="hero" className="noisy">
+            <section id="hero" className="noisy px-20">
                 <h1 className="title">MOJITO</h1>
 
                 <img
